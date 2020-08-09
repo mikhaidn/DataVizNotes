@@ -1,0 +1,19 @@
+Fuel Efficiency
+/Question 1
+The CSV file at https://flunky.github.io/cars2017.csv contains average data for 2017 automobile manufacturers. Create a scatter plot of this data over a 200x200 as follows.
+
+Plot the Average City MPG horizontally on a logarithmic scale.
+Plot the Average Hightway MPG vertically on a logarithmic scale.
+Set the radius of each circle to 2 plus the number of cylinders for that entry.
+Set the logarithmic scales to base 10, over a domain from 10 to 150.
+Use the .tickValues() method of each axis to set four tick values at 10, 20, 50 and 100.
+Use the .tickFormat() method of each axis to set the ticks to d3.format("~s").
+----------
+ <html>
+{/* <script src='https://d3js.org/d3.v5.min.js'></script>
+<style> circle {fill: lightblue; stroke: black;} </style>
+<body onload='init()'>
+<svg width=300 height=300>
+</svg>
+<script>
+async function init() { 
