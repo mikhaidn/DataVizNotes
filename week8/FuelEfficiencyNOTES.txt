@@ -17,3 +17,11 @@ Use the .tickFormat() method of each axis to set the ticks to d3.format("~s").
 </svg>
 <script>
 async function init() { 
+
+// d={
+// AverageCityMPG: "25",
+// AverageHighwayMPG: "35",
+// EngineCylinders: "4",
+// Fuel: "Gasoline",
+// Make: "Acura",
+// };
